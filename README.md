@@ -10,6 +10,7 @@ Samples
 
 include network
 
+```
 network::ipsec { 'local':
   interface   => '0',
   destination => '192.168.1.20',
@@ -19,7 +20,8 @@ network::ipsec { 'local':
   spiesput    => '5550100',
   spiahout    => '8675309',
 }
-
+```
+```
 network::ipsec { 'remote':
   interface   => '0',
   destination => '192.168.1.10',
@@ -29,3 +31,4 @@ network::ipsec { 'remote':
   spiesput    => '9180000',
   spiahout    => '8008135',
 }
+```
