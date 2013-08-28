@@ -10,7 +10,6 @@ Samples
 
 include network
 
-# manual keying
 network::ipsec { 'local':
   interface   => '0',
   destination => '192.168.1.20',
@@ -21,7 +20,6 @@ network::ipsec { 'local':
   spiahout    => '8675309',
 }
 
-# manual keying
 network::ipsec { 'remote':
   interface   => '0',
   destination => '192.168.1.10',
