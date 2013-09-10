@@ -7,9 +7,9 @@ http://kadorto.blogspot.com/2011/04/linux-host-to-host-ipsec.html
 
 Samples
 -------
-
+```
 include network
-
+```
 ```
 network::ipsec { 'local':
   interface   => '0',
