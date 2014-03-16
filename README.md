@@ -32,3 +32,11 @@ network::ipsec { 'remote':
   spiahout    => '8008135',
 }
 ```
+
+License
+-------
+GPL3
+
+Contact
+-------
+breauxaj AT gmail DOT com
